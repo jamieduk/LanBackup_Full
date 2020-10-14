@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=LanBackup
+Exec=nemo /home/jay/Documents/LanBackup
+Comment=
+Terminal=false
+Icon=cinnamon-panel-launcher
+Type=Application

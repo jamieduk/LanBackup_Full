@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=LanBackup
+Exec=bash /home/jay/Documents/Scripts/LanBackup_Full/lmenu.sh
+Comment=
+Terminal=true
+Icon=cinnamon-panel-launcher
+Type=Application
+Name[en_GB]=Menu

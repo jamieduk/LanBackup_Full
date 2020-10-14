@@ -1,0 +1,66 @@
+LanBackup 2020 By J~Net (Web Server Edition)
+
+https://jnet.forumotion.com/t1699-lanbackup-2020-by-jnet
+
+Before you start the first thing is to note the order , 1st setup then run and then if you restart system rerun run.sh via menu or manually!
+
+This assumes you already have 2 shares on windows samba with names 
+
+web_server_backup
+
+and
+
+linux_mint_docs_backup
+
+
+Download
+
+git clone https://github.com/jamieduk/LanBackup.git && cd LanBackup
+
+Menu Method
+
+sudo chmod +x *.sh
+
+./menu.sh
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Manual Method
+
+
+Step 1.
+
+run this command to setup the program.
+
+./setup.sh
+
+enter password and goto Step 2.
+
+
+Step 2.
+
+Now run this to test it is all setup correct with remote share. 
+
+./run.sh
+
+Then (after in setup instructions for mounting).
+
+Step 3.
+
+either backup.sh or restore.sh file.
+
+
+
+Notes for Backup file
+
+this assumes that a: you have a share on the remote host called 
+
+web_server_2020_backup
+
+and b) that the share has the correct credentails as used in the setup process.
+
+
+
+
+

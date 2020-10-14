@@ -1,0 +1,53 @@
+Bash Backup Scripts By (C) J~Net 2020
+
+
+Forum Link
+https://jnet.forumotion.com/t1699-lanbackup-2020-by-jnet#2624
+
+Github Link
+https://github.com/jamieduk/LanBackup_Full
+
+Site Link
+jnet.sytes.net
+
+
+Read Notes in /folder/Notes.txt for web and docs backup!
+
+
+This assumes you already have 2 shares on windows samba with names 
+
+web_server_backup
+
+and
+
+linux_mint_docs_backup
+
+
+
+For a shortcut sym link launcher add this
+
+nemo /home/$USER/Documents/Scripts/LanBackup_Full/
+or run ./shortcut.sh
+
+where $USER is your username!
+
+~~~~~~~~~~~~~
+
+More Notes:
+
+Only warnings and errors will appare while backing up and restoring so dont expect to see every file.
+
+Please also note:
+
+Backup your permissions via perm_backup.sh after you backup the web files,
+For example, order is setup run backup then perms backup!
+
+Make sure you look in backup.sh file in web backup app and make sure it suites your setup for example it needs to remove old backup dirs first before a new backup can be run, this is to ensure files are updated and not ignored as they may already exist on the remote share!
+
+It is your responsability to make sure all files have been backed up completely!
+No symbolic links will be copied, and transfering inside an unsecure network may give hackers a peak at your files, this is a slim risk but this is up to you to check but, in any case, I do not accept any responsability for any loss or damges!
+
+
+
+
+
