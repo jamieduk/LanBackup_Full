@@ -12,8 +12,7 @@ if [ "$#" -eq  "0" ]
 else
     ip=$1
 fi
-#
-# $ cp -R <source_folder> <destination_folder>
+echo "You chose $ip"
 echo "Type YES To Continue Restore... "
 read proceed
 if [ $proceed == 'YES' ] || [  $proceed == 'yes'  ]
