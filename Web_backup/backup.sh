@@ -15,7 +15,7 @@ if [ "$#" -eq  "0" ]
 else
     ip=$1
 fi
-# $ cp -R <source_folder> <destination_folder>
+echo "You chose $ip"
 echo "Type YES To Continue Backup... "
 read proceed
 if [ $proceed == 'YES' ] || [  $proceed == 'yes'  ]
