@@ -17,9 +17,7 @@ if [ "$#" -eq  "0" ]
 else
     ip=$1
 fi
-#
-#cd smb://$ip/$remote_location/
-#ls
+echo "You chose $ip"
 sudo mkdir /mnt/web_backup
 clear
 # /etc/fstab
