@@ -15,7 +15,7 @@ sudo rm /mnt/web_backup/permissions.txt
 #sudo apt install -y getfacl
 sudo getfacl -R $path > permissions.txt # sudo if you want every file!
 echo "Saving Permissions For $path..."
-sed 's+var+/var+g' test.txt > new.txt
+sed 's+var+/var+g' permissions.txt > new.txt
 mv new.txt permissions.txt
 cat permissions.txt
 sudo cp permissions.txt /mnt/web_backup/permissions.txt
